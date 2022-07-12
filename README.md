@@ -1,6 +1,8 @@
-# Module [name_module]
+# Module Utils
 
-Description for module.
+![GithubActions](https://github.com/hacybeyker/app-android-utils/actions/workflows/android_publish.yml/badge.svg?branch=master) ![SonarCloud](https://sonarcloud.io/api/project_badges/measure?project=app-android-utils&metric=alert_status)
+
+Android module that provides methods or utility functions.
 
 ## Setup
 
@@ -9,13 +11,6 @@ Description for module.
 ```bash
 git submodule init
 git submodule update
-```
-
-2. Add variables in `local.properties`.
-
-```bash
-KEY_PROD=YOUR_KEY  
-KEY_QA=YOUR_KEY
 ```
 
 ## Tools
@@ -39,8 +34,8 @@ KEY_QA=YOUR_KEY
 - SonarCloud
 
 ## Service
-- [Github Actions]()
-- [SonarCloud]()
+- [Github Actions](https://github.com/Hacybeyker/app-android-utils/actions)
+- [SonarCloud](https://sonarcloud.io/project/overview?id=app-android-utils)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

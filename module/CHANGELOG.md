@@ -1,5 +1,5 @@
-# AppName Changelog
+# app-android.utils Changelog
 
 ## Version 1.0.0
 ### Added
-- Your description
+- First upload of example.
