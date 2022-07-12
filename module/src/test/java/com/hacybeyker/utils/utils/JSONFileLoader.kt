@@ -1,4 +1,4 @@
-package com.hacybeyker.module.utils
+package com.hacybeyker.utils.utils
 
 import com.google.gson.Gson
 import java.io.InputStreamReader
