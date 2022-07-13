@@ -9,7 +9,7 @@ object Share {
 
     private const val TYPE = "image/*"
 
-    fun share(uri: Uri, textChooser: String, context: Context) {
+    fun send(uri: Uri, textChooser: String, context: Context) {
         val shareIntent = Intent().apply {
             action = Intent.ACTION_SEND
             flags = Intent.FLAG_ACTIVITY_NEW_TASK

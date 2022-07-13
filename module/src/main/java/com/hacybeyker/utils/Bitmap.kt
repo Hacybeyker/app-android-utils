@@ -16,6 +16,7 @@ object Bitmap {
 
     private const val FOLDER_MAIN = "files"
     private const val TYPE = "image/*"
+    private const val QUALITY = 100
 
     fun convertImageViewToDrawable(view: ImageView): Drawable {
         return view.drawable
@@ -26,7 +27,7 @@ object Bitmap {
     }
 
     fun convertViewToBitmap(view: View): Bitmap {
-        //return Bitmap.createBitmap(view.measuredWidth, view.measuredHeight, Bitmap.Config.ARGB_8888)
+        // return Bitmap.createBitmap(view.measuredWidth, view.measuredHeight, Bitmap.Config.ARGB_8888)
         return view.drawToBitmap()
     }
 
@@ -38,7 +39,7 @@ object Bitmap {
         val file = File(folder, "${Time.generateTimeMillis()}.${PictureExtensions.JPG.extension}")
         file.createNewFile()
         val bytes = FileOutputStream(file)
-        bitmap.compress(Bitmap.CompressFormat.PNG, 100, bytes)
+        bitmap.compress(Bitmap.CompressFormat.PNG, QUALITY, bytes)
         bytes.flush()
         bytes.close()
         return FileProvider.getUriForFile(context, "${context.packageName}.provider", file)
