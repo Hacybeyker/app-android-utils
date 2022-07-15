@@ -1,6 +1,6 @@
 # Module Utils
 
-![GithubActions](https://github.com/hacybeyker/app-android-utils/actions/workflows/android_publish.yml/badge.svg?branch=master) ![SonarCloud](https://sonarcloud.io/api/project_badges/measure?project=app-android-utils&metric=alert_status)
+![GithubActions](https://github.com/hacybeyker/app-android-utils/actions/workflows/android_publish.yml/badge.svg?branch=master) ![SonarCloud](https://sonarcloud.io/api/project_badges/measure?project=hacybeyker-app-android-utils&metric=alert_status)
 
 Android module that provides methods or utility functions.
 
